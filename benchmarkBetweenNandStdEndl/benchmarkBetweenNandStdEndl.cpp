@@ -40,7 +40,7 @@ int main()
         file2.close();
     }
 
-    end = high_resolution_clock::now();// CHRONO
+    end = high_resolution_clock::now(); // CHRONO
 
     // TIME CONVERTATION FOR std::endl //
     auto convertDurationToMicroSecondsS = duration_cast<microseconds>(end - start); // CHRONO
