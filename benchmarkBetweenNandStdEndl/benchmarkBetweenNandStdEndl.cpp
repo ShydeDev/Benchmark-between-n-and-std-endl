@@ -8,7 +8,7 @@ using namespace std::chrono;
 
 int main()
 {
-    const uint32_t iterations = 1000000; // change amount of iterations as you like
+    const uint32_t iterations = 1000000; // change amount of iterations from 0 to 2^32 (4,294,967,296)
 
     // Benchmark of \n //
     auto start = high_resolution_clock::now(); // CHRONO
